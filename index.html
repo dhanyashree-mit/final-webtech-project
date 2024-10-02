@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Final Project</title>
+  <style>
+    html{
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #dedede;
+    padding: 5px;
+    margin: 15px;
+    font-size: 25px;
+    font-family:Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-family:Arial, sans-serif;
+    font-size: 1.95em;
+}
+
+h2{
+    text-align:center;
+  }
+
+li{
+    margin-top: 20px;
+}
+
+img{
+    border: 5px solid blue;
+    width: 100%;
+    
+  }
+
+.label{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.grid{
+    display:block;
+    width:100%;
+    margin:10px;
+    height:50%;
+    
+
+}
+@media (min-width:772px){
+
+   
+
+    
+    
+  .grid figure {
+    border-radius: 50%;
+    overflow: hidden;
+    width:40%;
+    display:inline-block;
+    
+  }
+  .grid figure:last-child {
+    width: 100%; 
+
+ 
+}
+}
+@media (min-width:992px){
+  .grid figure{
+    border-radius: 0%;
+  }
+  .grid figure:nth-child(3){
+    width:100%;
+  }
+  .grid figure:nth-child(6){
+    width:100%;
+  }
+  .grid figure:nth-child(9){
+    width:100%;
+  }
+
+}
+@media (prefers-reduced-motion: reduce) {
+
+  * {
+    scroll-behavior: auto !important;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  .grid figure {
+    background-color: #181818; 
+    color: #f5f5f5; 
+    border-color: black; 
+  }
+}
+
+</style>
+</head>
+
+<body>
+  <header>
+    <h1 id="top">Final Project</h1>
+  </header>
+
+  <main>
+<p>Nature encompasses everything in the physical world that is not created by humans. This includes living organisms like plants, animals, and microorganisms, as well as inanimate objects such as rocks, water, and air. Nature also involves natural phenomena like weather, geological processes, and the laws of physics that govern the universe</p>
+
+    <p>Environmental protection is the practice of protecting the natural environment by individuals, groups and governments. Its objectives are to conserve natural resources and the existing natural environment and, where it is possible, to repair damage and reverse trends.
+    </p>
+    
+    <div class = "grid">
+        <figure>
+        <img src="n1.jpg" alt="nature1" width="200">
+        <figcaption>nature1</figcaption>
+        </figure>
+        <figure>
+        <img src="n2.jpg" alt="nature2" width="200">
+        <figcaption>nature2</figcaption>
+        </figure>
+        <figure>
+        <img src="n3.jpg" alt="nature3" width="200">
+        <figcaption>nature3</figcaption>
+        </figure>
+        <figure>
+        <img src="n4.jpg" alt="nature4" width="200">
+        <figcaption>nature4</figcaption>
+        </figure>
+        <figure>
+        <img src="n5.jpg" alt="nature5" width="200">
+        <figcaption>nature5</figcaption>
+        </figure>
+        <figure>
+        <img src="n6.jpg" alt="nature6" width="200">
+        <figcaption>nature6</figcaption>
+        </figure>
+        <figure>
+        <img src="n7.jpg" alt="nature7" width="200">
+        <figcaption>nature7</figcaption>
+        </figure>
+        <figure>
+        <img src="n8.jpg" alt="nature8" width="200">
+        <figcaption>nature8</figcaption>
+        </figure>
+        <figure>
+        <img src="n10.jpg" alt="nature9" width="200">
+        <figcaption>nature9</figcaption>
+        </figure>
+    </div>
+  </main>
+
+  <footer>
+    <a href="#top">Jump to the Top</a>
+  </footer>
+</body>
+
+</html>
